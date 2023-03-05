@@ -16,6 +16,8 @@
 		003B7C4429ADC6E70015FA3F /* SolarGramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003B7C4329ADC6E70015FA3F /* SolarGramTests.swift */; };
 		003B7C4E29ADC6E70015FA3F /* SolarGramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003B7C4D29ADC6E70015FA3F /* SolarGramUITests.swift */; };
 		003B7C5029ADC6E70015FA3F /* SolarGramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003B7C4F29ADC6E70015FA3F /* SolarGramUITestsLaunchTests.swift */; };
+		00D915AD29B47F4300BE63C6 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D915AC29B47F4300BE63C6 /* ProfileView.swift */; };
+		00D915AF29B4843F00BE63C6 /* PhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D915AE29B4843F00BE63C6 /* PhotosView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		003B7C4929ADC6E70015FA3F /* SolarGramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolarGramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		003B7C4D29ADC6E70015FA3F /* SolarGramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarGramUITests.swift; sourceTree = "<group>"; };
 		003B7C4F29ADC6E70015FA3F /* SolarGramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarGramUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		00D915AC29B47F4300BE63C6 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		00D915AE29B4843F00BE63C6 /* PhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				003B7C2C29ADC6E50015FA3F /* SolarGramApp.swift */,
 				003B7C2E29ADC6E50015FA3F /* Persistence.swift */,
 				003B7C3329ADC6E50015FA3F /* ContentView.swift */,
+				00D915AC29B47F4300BE63C6 /* ProfileView.swift */,
+				00D915AE29B4843F00BE63C6 /* PhotosView.swift */,
 				003B7C3529ADC6E60015FA3F /* Assets.xcassets */,
 				003B7C3729ADC6E60015FA3F /* SolarGram.entitlements */,
 				003B7C3029ADC6E50015FA3F /* SolarGram.xcdatamodeld */,
@@ -267,8 +273,10 @@
 			files = (
 				003B7C2D29ADC6E50015FA3F /* SolarGramApp.swift in Sources */,
 				003B7C3229ADC6E50015FA3F /* SolarGram.xcdatamodeld in Sources */,
+				00D915AD29B47F4300BE63C6 /* ProfileView.swift in Sources */,
 				003B7C3429ADC6E50015FA3F /* ContentView.swift in Sources */,
 				003B7C2F29ADC6E50015FA3F /* Persistence.swift in Sources */,
+				00D915AF29B4843F00BE63C6 /* PhotosView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
